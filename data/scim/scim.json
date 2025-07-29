@@ -1,0 +1,344 @@
+{
+    "1f2s": {
+        "commodities": [
+            {
+                "idx": 0,
+                "values": {
+                    "production_time": 1,
+                    "production_cost": 5,
+                    "product_price": 15
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "idx": 0,
+                "values": {
+                    "type": "factory",
+                    "storage_capacity": 20,
+                    "storage_cost": 3
+                }
+            },
+            {
+                "idx": 1,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 9,
+                    "storage_cost": 2,
+                    "lambda_max": 2,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 2,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 12,
+                    "storage_cost": 1,
+                    "lambda_max": 16,
+                    "lambda_var": 2
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": 0,
+                "dest": 1,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 2,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.6
+                }
+            }
+        ]
+    },
+    "1f3s": {
+        "commodities": [
+            {
+                "idx": 0,
+                "values": {
+                    "production_time": 1,
+                    "production_cost": 5,
+                    "product_price": 15
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "idx": 0,
+                "values": {
+                    "type": "factory",
+                    "storage_capacity": 30,
+                    "storage_cost": 2
+                }
+            },
+            {
+                "idx": 1,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 1,
+                    "lambda_max": 1,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 2,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 1,
+                    "lambda_max": 5,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 3,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 1,
+                    "lambda_max": 24,
+                    "lambda_var": 2
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": 0,
+                "dest": 1,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 2,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 3,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            }
+        ]
+    },
+    "1f10s": {
+        "commodities": [
+            {
+                "idx": 0,
+                "values": {
+                    "production_time": 1,
+                    "production_cost": 5,
+                    "product_price": 15
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "idx": 0,
+                "values": {
+                    "type": "factory",
+                    "storage_capacity": 100,
+                    "storage_cost": 1
+                }
+            },
+            {
+                "idx": 1,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 2,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 2,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 2,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 3,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 2,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 4,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 2,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 5,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 10,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 6,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 10,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 7,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 10,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 8,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 18,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 9,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 18,
+                    "lambda_var": 2
+                }
+            },
+            {
+                "idx": 10,
+                "values": {
+                    "type": "store",
+                    "storage_capacity": 15,
+                    "storage_cost": 2,
+                    "lambda_max": 18,
+                    "lambda_var": 2
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": 0,
+                "dest": 1,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 2,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 3,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 4,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 5,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 6,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 7,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 8,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 9,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            },
+            {
+                "source": 0,
+                "dest": 10,
+                "attrs": {
+                    "edge_time": 1,
+                    "edge_cost": 0.3
+                }
+            }
+        ]
+    }
+}

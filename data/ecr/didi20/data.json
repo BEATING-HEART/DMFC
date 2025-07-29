@@ -1,0 +1,5 @@
+{
+    "car_num": 500,
+    "fuel_coeff": 0.5,
+    "tstep": 10
+}

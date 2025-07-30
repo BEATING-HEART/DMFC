@@ -28,6 +28,7 @@ ibm_cplex="your_cplex_path"
 ```bash
 bash test.sh
 ```
+> for GraphRL, run `bash train.sh` to prepare ckpts (`ckpt/`) before evaluation. Or use the ckpts from the folder `saved_files/ckpt/`.
 
 2. visualize results within jupyter notebooks:
 ```bash

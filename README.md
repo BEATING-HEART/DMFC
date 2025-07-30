@@ -52,7 +52,7 @@ bash test_equivalence.sh
 
 > However, differences in solver strategies can yield distinct feasible solutions with the same objective value, causing discrepancies—especially in vehicle routing for mobility-on-demand systems. Additionally, numerical precision issues can further contribute to result variability. Although these differences may introduce fluctuations in the final results, the overall environment remains equivalent.
 
-# citation
+# Citation
 ```text
 @inproceedings{
     ye2025dynamic,

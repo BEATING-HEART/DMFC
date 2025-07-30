@@ -12,8 +12,8 @@ from gurobipy import GRB
 from loguru import logger as log
 
 # from baseline.graphrl.mobility.src.algos.lcp_solver import solve as solveECR
-from baseline.graphrl.supplychain.src.algos.lcp_solver import solve as solveSCIM
-from src.cplex.solver import ecr_lcp_solver
+# from baseline.graphrl.supplychain.src.algos.lcp_solver import solve as solveSCIM
+from src.cplex.solver import ecr_lcp_solver, scim_lcp_solver
 from src.envs import CarStatusEnum
 from src.grl_agents.ecr_agent import A2C as ECRA2C
 from src.grl_agents.scim_agent import A2C as SCIMA2C
@@ -355,7 +355,7 @@ class SCIMGRL(Algorithm):
             path = load_config(
                 Path(__file__).parent.parent / "config.toml", "ibm_cplex"
             )
-            action = solveSCIM(
+            action = scim_lcp_solver(
                 t=obs["timestamp"],
                 availableProd=availableProd,
                 desiredShip=desiredShip,
